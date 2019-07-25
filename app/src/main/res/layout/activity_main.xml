@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="33dp"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width  ="match_parent"
+            android:layout_height ="wrap_content"
+            android:id            ="@+id/list"
+            android:orientation   ="vertical"
+            android:paddingBottom="100dp">
+        </LinearLayout>
+    </ScrollView>
+    <TextView
+        android:id="@+id/display2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/submit_area"
+        android:layout_above="@+id/buttonPanel"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"/>
+   <Button
+       android:id="@+id/submit_area"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_above="@+id/buttonPanel"
+       android:layout_centerInParent="true"
+       android:backgroundTint="#ab47bc"
+       android:textColor="#ffffff"
+       android:text="Submit attendance"
+       android:onClick="SubmitAttendence"/>
+    <LinearLayout
+        android:id="@+id/buttonPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:backgroundTint="#6a1b9a"
+            android:onClick="ShowTimetable"
+            android:text="@string/see_your_timetable" />
+
+        <Button
+            android:id="@+id/attendence"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:backgroundTint="#6a1b9a"
+            android:onClick="ShowAttendence"
+            android:text="@string/see_your_attendence" />
+    </LinearLayout>
+
+
+</RelativeLayout>

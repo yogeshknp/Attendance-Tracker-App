@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditCourses">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/editname"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Your Name" />
+
+        <TextView
+            android:id="@+id/head"
+            style="@style/Days"
+            android:text="Your Courses"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_your_courses_tutorials_here"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                />
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <TextView
+                    android:text="1. "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="30dp"/>
+                <EditText
+                    android:id="@+id/Course1"
+                    android:layout_width="fill_parent"
+                    android:layout_marginRight="14dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Course Name"
+                    android:textSize="25dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. "
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="30dp" />
+                <EditText
+                    android:id="@+id/Course2"
+                    android:layout_width="fill_parent"
+                    android:layout_marginRight="14dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Course Name"
+                    android:textSize="25dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. "
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="30dp" />
+
+                <EditText
+                    android:id="@+id/Course3"
+                    android:layout_width="fill_parent"
+                    android:layout_marginRight="14dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Course Name"
+                    android:textSize="25dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. "
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="30dp" />
+
+                <EditText
+                    android:id="@+id/Course4"
+                    android:layout_width="fill_parent"
+                    android:layout_marginRight="14dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Course Name"
+                    android:textSize="25dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5. "
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="30dp" />
+                <EditText
+                    android:id="@+id/Course5"
+                    android:layout_width="fill_parent"
+                    android:layout_marginRight="14dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Course Name"
+                    android:textSize="25dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6. "
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="30dp" />
+
+                <EditText
+                    android:id="@+id/Course6"
+                    android:layout_width="fill_parent"
+                    android:layout_marginRight="14dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Course Name"
+                    android:textSize="25sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7. "
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="30dp" />
+
+                <EditText
+                    android:id="@+id/Course7"
+                    android:layout_width="fill_parent"
+                    android:layout_marginRight="14dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Course Name"
+                    android:textSize="25sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8. "
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="30dp" />
+
+                <EditText
+                    android:id="@+id/Course8"
+                    android:layout_width="fill_parent"
+                    android:layout_marginRight="14dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Course Name"
+                    android:textSize="25sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9. "
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="30dp" />
+
+                <EditText
+                    android:id="@+id/Course9"
+                    android:layout_width="fill_parent"
+                    android:layout_marginRight="14dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Course Name"
+                    android:textSize="25sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10."
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="30dp" />
+
+                <EditText
+                    android:id="@+id/Course10"
+                    android:layout_width="fill_parent"
+                    android:layout_marginRight="14dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Course Name"
+                    android:textSize="25sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="11."
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="30dp" />
+
+                <EditText
+                    android:id="@+id/Course11"
+                    android:layout_width="fill_parent"
+                    android:layout_marginRight="14dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Course Name"
+                    android:textSize="25sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12."
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="30dp" />
+
+                <EditText
+                    android:id="@+id/Course12"
+                    android:layout_width="fill_parent"
+                    android:layout_marginRight="14dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Course Name"
+                    android:textSize="25sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:id="@+id/time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#ffffff"
+                android:backgroundTint="#6a1b9a"
+                android:onClick="GoToTimetable"
+                android:text="Back" />
+            <Button
+                android:id="@+id/attendence"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#ffffff"
+                android:backgroundTint="#6a1b9a"
+                android:onClick="GoToEditSchedule"
+                android:text="Next" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

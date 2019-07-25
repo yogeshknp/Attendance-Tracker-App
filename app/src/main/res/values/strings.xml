@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">75Percent</string>
+    <string name="atten">Timetable</string>
+    <string name="see_your_timetable">TimeTable</string>
+    <string name="see_your_attendence">Check Your Attendance</string>
+    <string name="save">Save</string>
+    <string name="activity_name">Today\'s Classes</string>
+    <string name="enter_your_courses_tutorials_here"><![CDATA[Enter Your Courses & Tutorials Here]]></string>
+</resources>

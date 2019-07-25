@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ede7f6"
+    android:layout_margin="4dp">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.4"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/coursename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="Probability"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"/>
+        <TextView
+            android:id="@+id/details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Attended 31 Out Of 40 Classes"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/percent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.9"
+        android:text="100.0%"
+        android:textAlignment="center"
+        android:textSize="45sp"/>
+
+</LinearLayout>

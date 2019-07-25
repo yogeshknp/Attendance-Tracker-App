@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    tools:context=".EditSchedule">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:text="Monday's Classes"
+            style="@style/Days"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+                    android:text="08:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="09:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="10:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="11:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="12:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="02:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="03:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="04:00 AM"
+                    style="@style/Time"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+                <Spinner
+                    android:id="@+id/mon1"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/mon2"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/mon3"
+                    style="@style/Spinner" />
+                <Spinner
+                    android:id="@+id/mon4"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/mon5"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/mon6"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/mon7"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/mon8"
+                    style="@style/Spinner"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:text="Tuesday's Classes"
+            style="@style/Days"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+                    android:text="08:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="09:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="10:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="11:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="12:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="02:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="03:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="04:00 AM"
+                    style="@style/Time"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+                <Spinner
+                    android:id="@+id/tue1"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/tue2"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/tue3"
+                    style="@style/Spinner" />
+                <Spinner
+                    android:id="@+id/tue4"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/tue5"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/tue6"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/tue7"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/tue8"
+                    style="@style/Spinner"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:text="Wednesday's Classes"
+            style="@style/Days"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+                    android:text="08:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="09:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="10:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="11:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="12:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="02:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="03:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="04:00 AM"
+                    style="@style/Time"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+                <Spinner
+                    android:id="@+id/wed1"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/wed2"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/wed3"
+                    style="@style/Spinner" />
+                <Spinner
+                    android:id="@+id/wed4"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/wed5"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/wed6"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/wed7"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/wed8"
+                    style="@style/Spinner"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:text="Thursday's Classes"
+            style="@style/Days"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+                    android:text="08:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="09:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="10:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="11:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="12:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="02:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="03:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="04:00 AM"
+                    style="@style/Time"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+                <Spinner
+                    android:id="@+id/thu1"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/thu2"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/thu3"
+                    style="@style/Spinner" />
+                <Spinner
+                    android:id="@+id/thu4"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/thu5"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/thu6"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/thu7"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/thu8"
+                    style="@style/Spinner"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:text="Friday's Classes"
+            style="@style/Days"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+                    android:text="08:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="09:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="10:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="11:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="12:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="02:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="03:00 AM"
+                    style="@style/Time"/>
+                <TextView
+                    android:text="04:00 AM"
+                    style="@style/Time"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+                <Spinner
+                    android:id="@+id/fri1"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/fri2"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/fri3"
+                    style="@style/Spinner" />
+                <Spinner
+                    android:id="@+id/fri4"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/fri5"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/fri6"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/fri7"
+                    style="@style/Spinner"/>
+                <Spinner
+                    android:id="@+id/fri8"
+                    style="@style/Spinner"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/attendence"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#ffffff"
+                android:backgroundTint="#6a1b9a"
+                android:onClick="GoToEditCourses"
+                android:text="Back"/>
+            <Button
+                android:id="@+id/time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#ffffff"
+                android:backgroundTint="#6a1b9a"
+                android:onClick="SaveAndGoToTimetable"
+                android:text="@string/save" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

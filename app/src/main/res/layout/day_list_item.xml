@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="73dp"
+    android:layout_margin ="8dp"
+    android:background="#ede7f6"
+    android:orientation="horizontal"
+    android:layout_marginBottom="10dp">
+    <ImageView
+        android:id="@+id/timeimage"
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        android:layout_margin="3dp"
+        android:src="@drawable/time10"/>
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/classname"
+            android:layout_width="match_parent"
+            android:paddingLeft="20dp"
+            android:textSize="27dp"
+            android:layout_height="43dp"
+            android:text="Probability"
+            android:textColor="@color/colorPrimaryDark"/>
+        <RadioGroup
+            android:layout_below="@+id/classname"
+            android:id="@+id/radiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/going"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="going"/>
+            <RadioButton
+                android:id="@+id/notgoing"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="not going"/>
+            <RadioButton
+                android:id="@+id/nothappened"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="not happened"/>
+        </RadioGroup>
+    </RelativeLayout>
+</LinearLayout>
