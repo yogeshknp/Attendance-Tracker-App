@@ -1,5 +1,5 @@
 # Attendance-Tracker-App
-Designed and built an App on Android Studio with Java and SQLite.
+Designed and built an App on Android Studio with Java, XML and SQLite.
 ## Main Features of the App:
 1. Shows Today's Classes on the main screen of app.
 2. Keeps track of your attendance by simply submitting your daily attendance.
